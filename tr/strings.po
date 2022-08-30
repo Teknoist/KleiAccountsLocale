@@ -3,9 +3,9 @@ msgstr ""
 "Project-Id-Version: klei-accounts\n"
 "Report-Msgid-Bugs-To: support@kleientertainment.com\n"
 "POT-Creation-Date: 2018-05-24 11:14-0700\n"
-"PO-Revision-Date: 2020-12-05 17:00\n"
+"PO-Revision-Date: 2022-08-31 00:34+0300\n"
 "Last-Translator: Klei Entertainment <support@kleientertainment.com>\n"
-"Language-Team: Turkish (https://accounts.klei.com/community-translations)"
+"Language-Team: Turkish (https://accounts.klei.com/community-translations)Language: tr\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,6 +16,7 @@ msgstr ""
 "X-Crowdin-Language: tr\n"
 "X-Crowdin-File: strings.po\n"
 "X-Crowdin-File-ID: 76\n"
+"X-Generator: Poedit 3.1.1\n"
 
 #. i18n: keyword: Email
 msgid "E-mail"
@@ -43,7 +44,7 @@ msgstr "Değişiklikler Kayıt Ediliyor…"
 
 #. i18n: keyword: Expiration
 msgid "Expiration"
-msgstr "Süre Sonu"
+msgstr "Son Kullanma Tarihi"
 
 #. i18n: keyword: Redirecting
 msgid "Redirecting…"
@@ -63,7 +64,7 @@ msgstr "Ödüller"
 
 #. i18n: keyword: Transactions
 msgid "Transactions"
-msgstr ""
+msgstr "İşlemler"
 
 #. i18n: keyword: Settings
 msgid "Settings"
@@ -203,7 +204,7 @@ msgstr "Oops, Buraya ulaşmak için kullandığınız bağlantının geçersiz."
 
 #. i18n: keyword: E_EMAIL_IS_NOT_VERIFIED
 msgid "Please verify your email address to continue."
-msgstr ""
+msgstr "Devam etmek için lütfen e-posta adresinizi doğrulayın."
 
 #. i18n: keyword: E_EMAIL_VERIFIED
 msgid "Your e-mail has already been verified."
@@ -355,7 +356,7 @@ msgstr "Bu, hesabınız veya oyunlarınızla ilgili güncellemeler ve haberler g
 
 #. i18n: keyword: ChangeEmailInProgress
 msgid "We have sent a verification code to your new email address to authorize the change."
-msgstr ""
+msgstr "Değişikliği onaylamak için yeni e-posta adresinize bir doğrulama kodu gönderdik."
 
 #. i18n: keyword: Inventory
 msgid "Inventory"
@@ -399,23 +400,23 @@ msgstr "Posta listesi aboneliğinizi onaylamak için size bir e-posta gönderdik
 
 #. i18n: keyword: MarketingOptionsArchived
 msgid "Your newsletter subscription has been archived due to recent changes in your account. We archive newsletter subscriptions when you request deletion of your Klei account or when you make repetitive changes in your marketing options. You can try to subscribe one more time. If this does not work, please contact support."
-msgstr ""
+msgstr "Bülten aboneliğiniz, hesabınızdaki son değişiklikler nedeniyle arşivlendi. Klei hesabınızın silinmesini talep ettiğinizde veya pazarlama seçeneklerinizde tekrar eden değişiklikler yaptığınızda haber bülteni aboneliklerini arşivliyoruz. Bir kez daha abone olmayı deneyebilirsiniz. Bu işe yaramazsa, lütfen desteğe başvurun."
 
 #. i18n: keyword: E_MARKETING_API_SERVICE_IS_OFFLINE
 msgid "The third-party service we use to manage your newsletter subscription is having problems processing our requests. Please try again later."
-msgstr ""
+msgstr "Bülten aboneliğinizi yönetmek için kullandığımız üçüncü taraf hizmeti, taleplerimizi işlemede sorun yaşıyor. Lütfen daha sonra tekrar deneyiniz."
 
 #. i18n: keyword: LinkDiscordTitle
 msgid "Link Discord Account"
-msgstr ""
+msgstr "Discord Hesabını Bağla"
 
 #. i18n: keyword: LinkDiscordDescription
 msgid "This will link your Discord Account to your Klei Account."
-msgstr ""
+msgstr "Bu, Discord Hesabınızı Klei Hesabınıza bağlayacaktır."
 
 #. i18n: keyword: UnlinkDiscordTitle
 msgid "Unlink Discord Account"
-msgstr ""
+msgstr "Discord Hesabının Bağlantısını Kaldır"
 
 #. i18n: keyword: MergeAccountTitle
 msgid "Merge An Account"
@@ -423,23 +424,23 @@ msgstr "Bir Hesabı Birleştir"
 
 #. i18n: keyword: MergeAccountInstructionsDescription
 msgid "If you are using a public computer or one you share with other people you may want to use your browser's \"Incognito Window\" function (or equivalent) to ensure you are merging your own accounts and not someone else's, as the account merge process cannot be reversed."
-msgstr ""
+msgstr "Herkese açık bir bilgisayar kullanıyorsanız veya başkalarıyla paylaştığınız bir bilgisayar kullanıyorsanız, hesap birleştirme işlemi tersine döndürme işlemi yapılamaz olduğundan, başkalarının hesaplarını değil, kendi hesaplarınızı birleştirdiğinizden emin olmak için tarayıcınızın \"Gizli Pencere\" işlevini (veya eşdeğerini) kullanmak isteyebilirsiniz."
 
 #. i18n: keyword: MergeAccountInstructionsContinue
 msgid "Continue"
-msgstr ""
+msgstr "Devam et"
 
 #. i18n: keyword: MergeAccountConnectedTitle
 msgid "Connected"
-msgstr ""
+msgstr "Bağlı"
 
 #. i18n: keyword: MergeAccountConnectedID
 msgid "ID:"
-msgstr ""
+msgstr "ID:"
 
 #. i18n: keyword: MergeAccountNotConnected
 msgid "Not connected"
-msgstr ""
+msgstr "Bağlı değil"
 
 #. i18n: keyword: MergeAccountDescription
 msgid "This process will allow one Klei account to be associated to multiple platforms. This is intended for when you have accounts on multiple platforms and want them all to be linked to a single Klei account."
@@ -447,7 +448,7 @@ msgstr "Bu işlem, bir Klei hesabının birden çok platformla ilişkilendirilme
 
 #. i18n: keyword: MergeAccountSelectDescription
 msgid "Please select the account you wish to keep. <b>You will lose your in-game progress on the other account.</b>"
-msgstr ""
+msgstr "Lütfen tutmak istediğiniz hesabı seçin. <b>Diğer hesaptaki oyun içi ilerlemenizi kaybedeceksiniz.</b>"
 
 #. i18n: keyword: MergeAccountConsent
 msgid "Please click the checkmark to confirm that you have read and understand the following."
@@ -463,7 +464,7 @@ msgstr "Onayla"
 
 #. i18n: keyword: MergeAccountConfirmation
 msgid "Please type in “merge accounts” but in UPPERCASE letters, to confirm:"
-msgstr "Lütfen onaylamak için büyük harflerle “merge accounts“ yazın."
+msgstr "Lütfen onaylamak için büyük harflerle “merge accounts“ yazın:"
 
 #. i18n: keyword: MergeAccountButton
 msgid "I understand the consequences, merge these accounts"
@@ -475,7 +476,7 @@ msgstr "Hesap Birleştirme Başarılı"
 
 #. i18n: keyword: MergeAccountSuccessDescription
 msgid "The account merge operation was a success.</p><p>We have cleared your session to allow you to login with the new account.</p><p>If you have merged Epic and Steam and you have Griftlands on either platform, it will be granted on the other platform as well.</p><p>Remember you need to <strong>start the game at least once</strong> for us to be able to detect it."
-msgstr ""
+msgstr "Hesap birleştirme işlemi başarılı oldu.</p><p>Yeni hesapla giriş yapabilmeniz için oturumunuzu temizledik.</p><p>Epic ve Steam'i birleştirdiyseniz ve her ikisinde de Griftlands varsa platformda, diğer platformda da verilecektir.</p><p>Oyunu algılayabilmemiz için <strong>oyunu en az bir kez başlatmanız</strong> gerektiğini unutmayın."
 
 #. i18n: keyword: MergeAccountFixWarnings
 msgid "Fix Warnings"
@@ -483,19 +484,19 @@ msgstr "Uyarıları Düzelt"
 
 #. i18n: keyword: MergeAccountDate
 msgid "Account creation date"
-msgstr ""
+msgstr "Hesap oluşturma tarihi"
 
 #. i18n: keyword: MergeAccountEmail
 msgid "Klei Account e-mail"
-msgstr ""
+msgstr "Klei Hesabı e-postası"
 
 #. i18n: keyword: MergeAccountKeepThis
 msgid "Keep this account"
-msgstr ""
+msgstr "Bu hesabı sakla"
 
 #. i18n: keyword: MergeAccountMergeThis
 msgid "Merge this account"
-msgstr ""
+msgstr "Bu hesabı birleştir"
 
 #. i18n: keyword: MergeAccountCheckProfile
 msgid "Please double check this is the correct gaming account to merge."
@@ -503,35 +504,35 @@ msgstr "Lütfen birleştirilecek doğru oyun hesabı olup olmadığını iki kez
 
 #. i18n: keyword: MergeAccountCheckProfileSelected
 msgid "Make sure this is the account you want to keep."
-msgstr ""
+msgstr "Tutmak istediğiniz hesabın bu olduğundan emin olun."
 
 #. i18n: keyword: MergeAccountCheckProfileUnselected
 msgid "You'll lose all your in-game progress in this account."
-msgstr ""
+msgstr "Bu hesaptaki tüm oyun içi ilerlemenizi kaybedeceksiniz."
 
 #. i18n: keyword: MergeAccountReadyButton
 msgid "Merge accounts"
-msgstr ""
+msgstr "Hesapları birleştir"
 
 #. i18n: keyword: MergeAccountReady
 msgid "You will be able to log in with the new account after submitting."
-msgstr ""
+msgstr "Gönderdikten sonra yeni hesapla giriş yapabileceksiniz."
 
 #. i18n: keyword: MergeAccountMerging
 msgid "Merging…"
-msgstr ""
+msgstr "Birleştiriliyor…"
 
 #. i18n: keyword: MergeAccountDoNotLeave
 msgid "Please do not leave this page"
-msgstr ""
+msgstr "Lütfen bu sayfadan ayrılmayın"
 
 #. i18n: keyword: MergeAccountWarningsTitle
 msgid "Warning"
-msgstr ""
+msgstr "Uyarı"
 
 #. i18n: keyword: MergeAccountWarningsSubtitle
 msgid "You need to fix these issues"
-msgstr ""
+msgstr "Bu sorunları düzeltmeniz gerekiyor"
 
 #. i18n: keyword: MergeAccountConsentQuestion1
 msgid "DO NOT use this if you do not own both accounts. Both accounts will be considered a single person and will not be able to play multiplayer games at the same time."
@@ -547,23 +548,23 @@ msgstr "Bir platform bir Klei Hesabına bağlandıktan sonra bağlantısı kald�
 
 #. i18n: keyword: MergeInProgressTitle
 msgid "Merge In Progress"
-msgstr ""
+msgstr "Birleştirme Devam Ediyor"
 
 #. i18n: keyword: MergeInProgressDescription
 msgid "You have been logged out because an interruption occurred while account merging was in progress. Please log in again to try to continue merging."
-msgstr ""
+msgstr "Hesap birleştirme devam ederken bir kesinti meydana geldiği için oturumunuz kapatıldı. Birleştirmeye devam etmeyi denemek için lütfen tekrar giriş yapın."
 
 #. i18n: keyword: ContinueMergeTitle
 msgid "Continue Merge"
-msgstr ""
+msgstr "Birleştirmeye Devam Et"
 
 #. i18n: keyword: ContinueMergeDescription
 msgid "Your account is in the process of merging <b>{{ .Data.SourceKU }}</b> into <b>{{ .Data.DestinationKU }}</b>, you will not be able to log in until the merge has been completed.<br>Please click the button below to continue merging."
-msgstr ""
+msgstr "Hesabınız <b>{{ .Data.SourceKU }}</b> ile <b>{{ .Data.DestinationKU }}</b> birleştiriliyor, şu ana kadar giriş yapamayacaksınız. birleştirme tamamlandı.<br>Birleştirmeye devam etmek için lütfen aşağıdaki düğmeyi tıklayın."
 
 #. i18n: keyword: ContinueMergeButton
 msgid "Continue Merging"
-msgstr ""
+msgstr "Birleştirmeye Devam Et"
 
 #. i18n: keyword: E_ACCOUNT_MERGE_NOT_SUPPORTED
 msgid "Unfortunately, the gaming platform you are trying to merge does not have the capabilities to execute this operation yet."
@@ -611,15 +612,15 @@ msgstr "Steam hesabınızı zaten birleştirdiniz."
 
 #. i18n: keyword: E_ACCOUNT_MERGE_WARNING_PLATFORM_CONFLICT_klei.XboxPWID
 msgid "You already merged your Xbox Network account."
-msgstr ""
+msgstr "Xbox Network hesabınızı zaten birleştirdiniz."
 
 #. i18n: keyword: E_ACCOUNT_MERGE_WARNING_PLATFORM_CONFLICT_klei.NintendoPPID
 msgid "You already merged your Nintendo account."
-msgstr ""
+msgstr "Nintendo hesabınızı zaten birleştirdiniz."
 
 #. i18n: keyword: E_ACCOUNT_MERGE_WARNING_PLATFORM_CONFLICT_klei.RailCommonID
 msgid "You already merged your WeGame account."
-msgstr ""
+msgstr "WeGame hesabınızı zaten birleştirdiniz."
 
 #. i18n: keyword: OwnershipDescription
 msgid "Use this page to get access to the games you already own in a different gaming platform."
@@ -675,7 +676,7 @@ msgstr "Hesabı Sil"
 
 #. i18n: keyword: UnlinkThis
 msgid "Unlink"
-msgstr ""
+msgstr "Bağlantıyı kaldır"
 
 #. i18n: keyword: UnlinkThisQuestion
 msgid "Are you sure you want to unlink your"
@@ -835,7 +836,7 @@ msgstr "<b>Arama İpuçları:</b> Oyun envanterinizdeki bir eşyayı aramak içi
 
 #. i18n: keyword: E_UNAVAILABLE_GAME_INVENTORY
 msgid "The game you selected does not have items. Please make sure you have selected Don't Starve Together."
-msgstr "Seçtiğiniz oyundan eşya yok.Lütfen Don't Starve Together seçtiğinizden emin olun"
+msgstr "Seçtiğiniz oyundan eşya yok.Lütfen Don't Starve Together seçtiğinizden emin olun."
 
 #. i18n: keyword: PlayerInfo
 msgid "Player Info"
@@ -971,23 +972,23 @@ msgstr "Kullanıldı:"
 
 #. i18n: keyword: ItemsFilterRarity
 msgid "Rarity"
-msgstr "Nadirlik:"
+msgstr "Nadirlik"
 
 #. i18n: keyword: RollbackDialogConfirmation
 msgid "Are you sure you want to rollback this transaction?"
-msgstr ""
+msgstr "Bu işlemi geri almak istediğinizden emin misiniz?"
 
 #. i18n: keyword: RollbackDialogNotEnoughCurrency
 msgid "You don't have enough currency for this rollback! You need another"
-msgstr ""
+msgstr "Bu geri alma için yeterli para biriminiz yok! başka birine ihtiyacın var"
 
 #. i18n: keyword: RollbackGain
 msgid "You will gain"
-msgstr ""
+msgstr "Kazanacaksın"
 
 #. i18n: keyword: RollbackLose
 msgid "You will lose"
-msgstr ""
+msgstr "Kaybedeceksin"
 
 #. i18n: keyword: DownloadSettings
 msgid "Download Settings"
@@ -995,11 +996,11 @@ msgstr "Ayarları İndir"
 
 #. i18n: keyword: UpcomingBetasTitle
 msgid "Testing of Upcoming Projects"
-msgstr ""
+msgstr "Yaklaşan Projelerin Test Edilmesi"
 
 #. i18n: keyword: UpcomingBetasDescription
 msgid "You can register for testing alpha and beta projects in which you are interested. You will receive an email if you are accepted into one."
-msgstr ""
+msgstr "İlgilendiğiniz alfa ve beta projelerini test etmek için kayıt olabilirsiniz. Bir e-postaya kabul edilirseniz bir e-posta alacaksınız."
 
 #. i18n: keyword: BetaStatus
 msgid "Status:"
@@ -1015,7 +1016,7 @@ msgstr "Kayıt"
 
 #. i18n: keyword: BetaRegistered
 msgid "Registered. We will notify you if you have been selected to participate in this test."
-msgstr ""
+msgstr "Kayıtlı. Bu teste katılmak üzere seçildiyseniz sizi bilgilendireceğiz."
 
 #. i18n: keyword: BetaAccepted
 msgid "Accepted"
@@ -1043,7 +1044,7 @@ msgstr "Düşenler ve Ödüller (Beta)"
 
 #. i18n: keyword: RewardDescription
 msgid "Keep up to date and earn in-game rewards. We'll be adding new rewards from time to time, so check back often to see what's new! Use points to redeem items listed in the page below. Spools are useful inside the games."
-msgstr "Güncel tutun ve oyun içi ödüller kazanın. Zaman zaman yeni ödüller ekleyeceğiz, bu yüzden yenilikleri görmek için sık sık tekrar kontrol edin!"
+msgstr "Güncel tutun ve oyun içi ödüller kazanın. Zaman zaman yeni ödüller ekleyeceğiz, bu yüzden yenilikleri görmek için sık sık tekrar kontrol edin"
 
 #. i18n: keyword: RewardLabel
 msgid "Reward"
@@ -1107,7 +1108,7 @@ msgstr "puan"
 
 #. i18n: keyword: RewardBoltsAbbreviation
 msgid "bolts"
-msgstr "Cıvatalar"
+msgstr "cıvatalar"
 
 #. i18n: keyword: RewardSpoolsAbbreviation
 msgid "spools"
@@ -1499,15 +1500,15 @@ msgstr "Steam'e bağlanılamadı"
 
 #. i18n: keyword: RevertAccountLimboTitle
 msgid "Account marked for deletion"
-msgstr ""
+msgstr "Hesap silinmek üzere işaretlendi"
 
 #. i18n: keyword: RevertAccountLimboDescription
 msgid "Your account with User ID <b>{{ .Data.KU }}</b> has been marked for deletion and will be permanently unrecoverable within 30 days.<br>If you would like to recover your account, please press the \"Recover Account\" button."
-msgstr ""
+msgstr "<b>{{ .Data.KU }}</b> Kullanıcı Kimliğine sahip hesabınız silinmek üzere işaretlendi ve 30 gün içinde kalıcı olarak kurtarılamayacak.<br>Hesabınızı kurtarmak istiyorsanız, lütfen \" Hesabı Kurtar\" düğmesi."
 
 #. i18n: keyword: RevertAccountLimboConfirm
 msgid "Recover Account"
-msgstr ""
+msgstr "Hesabı Kurtar"
 
 #. i18n: keyword: E_JSON_BAD_EOF
 msgid "The server was unable to read the data you submitted. Please try again later."
@@ -1535,7 +1536,7 @@ msgstr "Oyun mevcut değil."
 
 #. i18n: keyword: E_REWARD_REPLAYED
 msgid "This reward has already been claimed, your balances have been updated!"
-msgstr ""
+msgstr "Bu ödül zaten talep edildi, bakiyeleriniz güncellendi!"
 
 #. i18n: keyword: E_INTERNAL_SERVER_ERROR
 msgid "Internal server error, try again in a few seconds."
@@ -1555,7 +1556,7 @@ msgstr "E-Posta adresi geçerli değil. Lütfen doğru girdiğinize emin olun."
 
 #. i18n: keyword: E_INVALID_EMAIL_BY_MAILGUN
 msgid "Your e-mail address is valid. However, the third-party service that we use to send messages has blacklisted you, which means we will not be able to send verification codes, newsletters, promotions, announcements, and any other type of electronic message. Your Klei account will remain unverified, and you will lose access to some features, but you can still play our games. To fix this problem, you need to input a different e-mail address."
-msgstr ""
+msgstr "E-posta adresiniz geçerli. Ancak, mesaj göndermek için kullandığımız üçüncü taraf hizmeti sizi kara listeye aldı; bu, doğrulama kodlarını, haber bültenlerini, promosyonları, duyuruları ve diğer herhangi bir elektronik mesajı gönderemeyeceğimiz anlamına gelir. Klei hesabınız doğrulanmamış olarak kalacak ve bazı özelliklere erişiminizi kaybedeceksiniz, ancak yine de oyunlarımızı oynayabilirsiniz. Bu sorunu çözmek için farklı bir e-posta adresi girmeniz gerekir."
 
 #. i18n: keyword: E_INVALID_PASSWORD
 msgid "The password provided is invalid."
@@ -1571,7 +1572,7 @@ msgstr "Oturumun süresi doldu, bir kez daha giriş yapmanız gerekiyor. <b>Safa
 
 #. i18n: keyword: E_STEAM_SERVICE_UNAVAILABLE
 msgid "The Steam service is unavailable."
-msgstr ""
+msgstr "Steam hizmeti kullanılamıyor."
 
 #. i18n: keyword: E_INVALID_STEAM_REQUEST
 msgid "Fail to authenticate your Steam account without an Internet connection."
@@ -1767,7 +1768,7 @@ msgstr "Beta artık aktif değil."
 
 #. i18n: keyword: E_MISSING_BASE_GAME_FOR_BETA
 msgid "You must own the base game to participate in this test."
-msgstr ""
+msgstr "Bu teste katılmak için temel oyuna sahip olmalısınız."
 
 #. i18n: keyword: E_CANNOT_PARSE_FORM
 msgid "Your computer sent incorrect data to the server."
@@ -1799,7 +1800,7 @@ msgstr "Steam sunucuları şu anda kullanılamıyor."
 
 #. i18n: keyword: E_STEAM_E502_L3
 msgid "Steam servers are unavailable at the moment. This usually happens during the first and second hours after a big sale. Please, contact the Steam customer support team for further assistance."
-msgstr ""
+msgstr "Steam sunucuları şu anda kullanılamıyor. Bu genellikle büyük bir satıştan sonraki ilk ve ikinci saatlerde olur. Lütfen daha fazla yardım için Steam müşteri destek ekibiyle iletişime geçin."
 
 #. i18n: keyword: E_STEAM_BROKEN_FEATURE_WARNING
 msgid "It appears you are viewing this web page using Steam In-Game Browser. Unfortunately, some features in this website do not work very well in this environment. If you have problems using this feature please consider using a regular web browser outside of Steam."
@@ -1823,7 +1824,7 @@ msgstr "Önceki web sitesi bize geçersiz veriler gönderdi. Doğrulama isteğin
 
 #. i18n: keyword: E_OPENID_ACCESS_DENIED
 msgid "Steam denied your login attempt. Steam servers may be offline, which usually causes problems with Klei Entertainment and Steam's communication bridge. Please, wait a couple of minutes and try again. If the problem persists, feel free to send a message to our <a href='https://support.klei.com/'>support team</a>."
-msgstr ""
+msgstr "Steam, giriş denemenizi reddetti. Steam sunucuları çevrimdışı olabilir, bu da genellikle Klei Entertainment ve Steam'in iletişim köprüsünde sorunlara neden olur. Lütfen birkaç dakika bekleyin ve tekrar deneyin. Sorun devam ederse, <a href='https://support.klei.com/'>destek ekibimize</a> mesaj göndermekten çekinmeyin."
 
 #. i18n: keyword: E_STEAM_ID_IS_MISSING
 msgid "Steam identifier is missing. The game client did not provide all the information we need to authenticate your account. Please close the game and start again."
@@ -1951,11 +1952,11 @@ msgstr "Üzgünüz ama bu ödül artık aktif değil. Lütfen bizi sosyal medyad
 
 #. i18n: keyword: E_DOUBLE_ROLLBACK
 msgid "This transaction has already been rolled back."
-msgstr ""
+msgstr "Bu işlem zaten geri alındı."
 
 #. i18n: keyword: E_UNSUPPORTED_FOR_ROLLBACK
 msgid "This transaction cannot be rolled back."
-msgstr ""
+msgstr "Bu işlem geri alınamaz."
 
 #. i18n: keyword: UserTransactions
 msgid "User Transactions"
@@ -1983,15 +1984,15 @@ msgstr "İşlem yok."
 
 #. i18n: keyword: TransactionRollback
 msgid "Rollback"
-msgstr ""
+msgstr "Geri alma"
 
 #. i18n: keyword: GiftingEventWeek
 msgid "Week"
-msgstr ""
+msgstr "Hafta"
 
 #. i18n: keyword: GiftingEventGift
 msgid "Gift"
-msgstr ""
+msgstr "Hediye"
 
 #. i18n: keyword: CurrentBalanceForSpools
 msgid "Current Spools Balance"
@@ -2015,7 +2016,7 @@ msgstr "Eşya Oluştur"
 
 #. i18n: keyword: TXN_INVENTORY_MERGE
 msgid "Account Merge"
-msgstr ""
+msgstr "Hesap Birleştirme"
 
 #. i18n: keyword: TXN_LINK_FOR_SPOOLS
 msgid "Link For Spools"
@@ -2087,15 +2088,15 @@ msgstr "Twich Düşen Eşya"
 
 #. i18n: keyword: TXN_DOUYU_ITEM_DROP
 msgid "Douyu Item Drop"
-msgstr ""
+msgstr "Douyu Düşen Eşya"
 
 #. i18n: keyword: TXN_BILIBILI_ITEM_DROP
 msgid "Bilibili Item Drop"
-msgstr ""
+msgstr "Bilibili Düşen Eşya"
 
 #. i18n: keyword: TXN_DAILY_GIFT_ITEM
 msgid "Daily Gift Item"
-msgstr "GÜnlük Hediye Eşya"
+msgstr "Günlük Hediye Eşya"
 
 #. i18n: keyword: TXN_WEEKLY_GIFT_ITEM
 msgid "Weekly Gift Item"
@@ -2119,19 +2120,19 @@ msgstr "Steam Kutusu (DLC)"
 
 #. i18n: keyword: TXN_CURRENCY_EXCHANGE
 msgid "Currency Exchange"
-msgstr ""
+msgstr "Döviz Değişimi"
 
 #. i18n: keyword: TXN_CONSUME_REDEEMABLE_CODE
 msgid "Consume Redeemable Code"
-msgstr ""
+msgstr "Kullanılabilir Kodu Kullan"
 
 #. i18n: keyword: TXN_SUPPORT_ISSUED_CURRENCY
 msgid "Klei Support Issued Currency"
-msgstr ""
+msgstr "Klei Support Çıkarılan Para Birimi"
 
 #. i18n: keyword: TXN_SUPPORT_ISSUED_ITEM
 msgid "Klei Support Issued Item"
-msgstr ""
+msgstr "Klei Destek Verilmiş Öğe"
 
 #. i18n: keyword: Marketable
 msgid "Marketable"
@@ -2163,7 +2164,7 @@ msgstr "Seçtiğiniz dosya çok büyük. Lütfen yüklemeye devam etmek için bo
 
 #. i18n: keyword: E_FILE_SIZE_ZERO
 msgid "The file you selected has a size of zero bytes. Please try again with a different file."
-msgstr ""
+msgstr "Seçtiğiniz dosyanın boyutu sıfır bayt. Lütfen farklı bir dosya ile tekrar deneyin."
 
 #. i18n: keyword: E_DID_NOT_AGREE_TO_HALLOWEEN_RULES
 msgid "Unfortunately, you can not participate in the Halloween event if you do not agree with the event rules."
@@ -2183,40 +2184,40 @@ msgstr "Gönderim ve mesaj için teşekkürler. Maalesef seksen (80) karakterlik
 
 #. i18n: keyword: E_HALLOWEEN_USER_BANNED
 msgid "Your previous submission has been banned and you are not allowed to make another submission."
-msgstr ""
+msgstr "Önceki gönderiminiz yasaklandı ve başka bir gönderim yapmanıza izin verilmiyor."
 
 #. i18n: keyword: HalloweenConfirmResubmission
 msgid "You have already submitted an image. Are you sure you want to overwrite your previous submission?"
-msgstr ""
+msgstr "Zaten bir resim gönderdiniz. Önceki gönderiminizin üzerine yazmak istediğinizden emin misiniz?"
 
 #. i18n: keyword: ReviewEULATitle
 msgid "Review End-User License Agreement and Terms of Service"
-msgstr ""
+msgstr "Son Kullanıcı Lisans Sözleşmesini ve Hizmet Şartlarını gözden geçirin"
 
 #. i18n: keyword: ReviewEULADescription
 msgid "Hello <code>{{.Data.KU}}</code>,<br><br>Your account has been banned for violation of the End-User License Agreement or Terms of Service.<br><br>Please, read carefully and make a conscious decision whether you want continue participating in our community and playing our games or not."
-msgstr ""
+msgstr "Merhaba <code>{{.Data.KU}}</code>,<br><br>Hesabınız Son Kullanıcı Lisans Sözleşmesini veya Hizmet Şartlarını ihlal ettiği için yasaklandı.<br><br>Lütfen, dikkatlice okuyun ve topluluğumuza katılmaya ve oyunlarımızı oynamaya devam etmek isteyip istemediğinize bilinçli bir karar verin."
 
 #. i18n: keyword: ReviewEULAWarning
 msgid "Further violation of the terms of service may result in additional restrictions on your account such as temporary or permanent restriction from access to online services."
-msgstr ""
+msgstr "Hizmet koşullarının daha fazla ihlali, hesabınızda çevrimiçi hizmetlere erişimin geçici veya kalıcı olarak kısıtlanması gibi ek kısıtlamalara neden olabilir."
 
 #. i18n: keyword: E_REVIEW_EULA_REVIEWS_NOT_FOUND
 msgid "It looks like you did not review any of the End-User License Agreement and Terms of Service. Please, click on each link, read the information, and tick the checkboxes if you consciously agree with the terms of service."
-msgstr ""
+msgstr "Son Kullanıcı Lisans Sözleşmesi ve Hizmet Şartlarından hiçbirini incelememişsiniz gibi görünüyor. Lütfen her bağlantıya tıklayın, bilgileri okuyun ve hizmet şartlarını bilinçli olarak kabul ediyorsanız onay kutularını işaretleyin."
 
 #. i18n: keyword: E_REVIEW_EULA_MISSING_REVIEWS
 msgid "It looks like you did not review all of the End-User License Agreement and Terms of Service. Please, visit the previous page, read the information, and tick the checkboxes if you consciously agree with the terms of service."
-msgstr ""
+msgstr "Görünüşe göre Son Kullanıcı Lisans Sözleşmesinin ve Hizmet Şartlarının tamamını incelememişsiniz. Lütfen önceki sayfayı ziyaret edin, bilgileri okuyun ve hizmet şartlarını bilinçli olarak kabul ediyorsanız onay kutularını işaretleyin."
 
 #. i18n: keyword: E_USER_IS_NOT_BANNED
 msgid "Your account is not banned."
-msgstr ""
+msgstr "Hesabınız yasaklanmadı."
 
 #. i18n: keyword: E_USER_BAN_IS_NOT_REVERSIBLE
 msgid "The ban in your account is not reversible."
-msgstr ""
+msgstr "Hesabınızdaki yasak geri alınamaz."
 
 #. i18n: keyword: E_INVALID_GOTO_URL
 msgid "Oh no! It looks like you clicked a broken link. You might need to authenticate again."
-msgstr ""
+msgstr "Oh hayır! Bozuk bir bağlantıya tıkladığınız anlaşılıyor. Yeniden kimlik doğrulaması yapmanız gerekebilir."
